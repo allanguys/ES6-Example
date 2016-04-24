@@ -1,10 +1,17 @@
 # ES6-Example
-这是一个用ES6重构的线上代码的实例。
+
+这是一个用**`ES6`**重构的线上代码实例。
 
 
-构建工具：gulp+webpack
 
 
+## 构建工具
+ **`gulp+webpack`**
+
+ 
+## 目录：
+
+```
 .
 |____.babelrc
 |____public
