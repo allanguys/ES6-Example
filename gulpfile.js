@@ -4,7 +4,6 @@ var gulp = require("gulp");
 var sourcemaps = require("gulp-sourcemaps");
 var gutil = require("gulp-util"); 
 var babel = require("gulp-babel");
-var concat = require("gulp-concat");
 var webpack = require( 'webpack');
 var webpackConfig = require('./webpack.config');
 
@@ -39,7 +38,7 @@ gulp.task('webpack', ['bable'], function(callback) {
 });
 
 
-gulp.task('watch',['webpack'],function() {
+gulp.task('default',['webpack'],function() {
   gulp.watch(["src/**/*.js"], ['webpack']);
 });
 
